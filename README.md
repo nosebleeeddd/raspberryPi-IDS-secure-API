@@ -233,11 +233,3 @@ HTTPS protects the token while it travels across the network. The token itself m
 | OpenSSL | TLS certificate generation |
 | Bearer Token | API authentication |
 | UFW | Firewall and network access restrictions |
-
-## 7. Overall Goal
-
-The goal is to build a small, centralized network monitoring system using a Raspberry Pi.
-
-The IDS detects suspicious network activity, Flask receives and manages security events, SQLite stores the data, and Nginx provides secure remote access from the HP laptop.
-
-This architecture separates packet detection, application logic, data storage, and secure network access into independent components.
